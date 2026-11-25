@@ -1,0 +1,187 @@
+{
+  "name": "SkillBough",
+  "primary": "Book a skills audit",
+  "accent": "#dafa9c",
+  "ink": "#ffffff",
+  "bg": "#0f0f0f",
+  "surface": "#1a1a1a",
+  "fontLink": "<link href=\"https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@75..100,400..700&family=DM+Mono:wght@400;500&display=swap\" rel=\"stylesheet\">",
+  "fontDisplay": "\"Instrument Sans\", system-ui, sans-serif",
+  "fontText": "\"Instrument Sans\", system-ui, sans-serif",
+  "client": "Finance team, Lagos office",
+  "note": "A fixed team of 18. Results here come from fixed data in your browser; no AI service is called.",
+  "tabs": {
+    "overview": "Team",
+    "records": "People",
+    "queue": "Pathways to approve"
+  },
+  "overview": {
+    "title": "Finance team skills",
+    "kpis": [
+      [
+        "Employees",
+        "18"
+      ],
+      [
+        "Ready for their role",
+        "11"
+      ],
+      [
+        "Open gaps",
+        "7"
+      ],
+      [
+        "Training hours planned",
+        "126"
+      ]
+    ],
+    "chart": {
+      "title": "Team level per skill, as a share of what roles need",
+      "labels": [
+        "Model",
+        "SQL",
+        "IFRS16",
+        "BI",
+        "Tax",
+        "Report",
+        "Excel",
+        "Audit"
+      ],
+      "values": [
+        83,
+        41,
+        58,
+        47,
+        79,
+        66,
+        88,
+        61
+      ],
+      "threshold": 60,
+      "thresholdLabel": "Target 60%",
+      "caption": "Skills under the line get pathways first."
+    }
+  },
+  "records": {
+    "title": "People",
+    "searchHint": "Name or skill",
+    "statusCol": 3,
+    "columns": [
+      "Employee",
+      "Role",
+      "Main gap",
+      "Status",
+      "Level",
+      "Next step"
+    ],
+    "tones": {
+      "Gap": "bad",
+      "Building": "warn",
+      "Ready": "good"
+    },
+    "rows": [
+      [
+        "Kemi Adewale",
+        "Analyst",
+        "SQL",
+        "Gap",
+        "38%",
+        "Pathway to approve"
+      ],
+      [
+        "Chidi Eze",
+        "Analyst",
+        "IFRS 16",
+        "Gap",
+        "44%",
+        "Pathway to approve"
+      ],
+      [
+        "Yusuf Bello",
+        "Analyst",
+        "Power BI",
+        "Gap",
+        "40%",
+        "Pathway to approve"
+      ],
+      [
+        "Fatima Musa",
+        "Controller",
+        "Reporting",
+        "Building",
+        "62%",
+        "Course in progress"
+      ],
+      [
+        "Segun Olaniyan",
+        "Analyst",
+        "SQL",
+        "Building",
+        "57%",
+        "Course in progress"
+      ],
+      [
+        "Ngozi Ibe",
+        "Controller",
+        "None",
+        "Ready",
+        "91%",
+        "Reassess in May"
+      ],
+      [
+        "Ada Okoro",
+        "Analyst",
+        "None",
+        "Ready",
+        "86%",
+        "Reassess in May"
+      ],
+      [
+        "Tunde Kareem",
+        "Controller",
+        "Tax",
+        "Building",
+        "68%",
+        "Course in progress"
+      ],
+      [
+        "Ike Uche",
+        "Analyst",
+        "None",
+        "Ready",
+        "84%",
+        "Reassess in June"
+      ]
+    ]
+  },
+  "queue": {
+    "title": "Pathways waiting for a manager",
+    "lead": "Each pathway lists its courses and hours. Nothing reaches the employee until a manager approves.",
+    "items": [
+      {
+        "id": "kemi",
+        "title": "Kemi Adewale: SQL and Power BI, 18 hours",
+        "detail": "Analyst. Three courses over 12 weeks.",
+        "reason": "SQL at 38% of the analyst level; Power BI at 45%."
+      },
+      {
+        "id": "chidi",
+        "title": "Chidi Eze: IFRS 16 leases, 5 hours",
+        "detail": "Analyst. One course and a case study.",
+        "reason": "Lease accounting at 44%; four of his clients report leases."
+      },
+      {
+        "id": "yusuf",
+        "title": "Yusuf Bello: Power BI for finance, 8 hours",
+        "detail": "Analyst. One course and a dashboard project.",
+        "reason": "Power BI at 40%; the team’s monthly pack moves to dashboards in March."
+      },
+      {
+        "id": "fatima",
+        "title": "Fatima Musa: board reporting, 6 hours",
+        "detail": "Controller. A workshop and two practice packs.",
+        "reason": "Stakeholder reporting at 62% of the controller level."
+      }
+    ]
+  }
+}

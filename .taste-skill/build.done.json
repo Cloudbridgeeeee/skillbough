@@ -1,0 +1,11 @@
+{
+ "page": "dist/index.html",
+ "dir": "/home/user/skillbough",
+ "kind": "software",
+ "start": "2026-11-25T02:30:52.862Z",
+ "by": "start.mjs",
+ "url": null,
+ "root": "dist",
+ "category": "skills mapping and training software",
+ "primary": "Book a skills audit"
+}
